@@ -520,11 +520,7 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-<<<<<<< HEAD
-  background-image: url('images/slider/big3.jpg');
-=======
   background-image: url('images/big3.jpg');
->>>>>>> 319d89811f02cf2b780ecced360b54776e25e5c4
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
