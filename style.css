@@ -137,6 +137,14 @@ blockquote p {
   z-index: 1;
 }
 
+.curveUpColor2, .curveDownColor2 {
+  fill: #fff;
+  stroke: #fff;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
 .curveUpColor {
   margin-top: -100px;
 }
@@ -157,6 +165,7 @@ blockquote p {
   fill: #ECF0F1;
   stroke: #ECF0F1;
 }
+
 
 /* *********************************************************
   Buttons 
@@ -511,7 +520,11 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
+<<<<<<< HEAD
+  background-image: url('images/slider/big3.jpg');
+=======
   background-image: url('images/big3.jpg');
+>>>>>>> 319d89811f02cf2b780ecced360b54776e25e5c4
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -560,6 +573,70 @@ blockquote p {
   width: 70%;
   margin: 0 auto 30px auto;
   color: #fff;
+}
+
+/* *********************************************************
+  Kuvakaruselli
+********************************************************* */
+/* Hide all but the first image */
+.slick-slide:not(:first-child) {
+  display: none;
+}
+
+/* Style the slider container */
+.slider {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  border-radius: 90px 29px 143px 14px;
+  -moz-border-radius: 90px 29px 143px 14px;
+  -webkit-border-radius: 90px 29px 143px 14px;
+  border: 8px solid #474747;
+  -webkit-box-shadow: 0px 0px 14px 7px #12b1c1;
+  -moz-box-shadow: 0px 0px 14px 7px #515353;
+  box-shadow: 0px 0px 14px 7px #12b1c1;
+}
+
+/* Set the border radius and border for the slider images */
+.slick-slide img {
+  border-radius: 90px 29px 143px 14px !important;
+  -moz-border-radius: 90px 29px 143px 14px !important;
+  -webkit-border-radius: 90px 29px 143px 14px !important;
+  border: 8px solid #000000 !important;
+  }
+
+/* Style the navigation dots */
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #949292;
+  color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button {
+  background-color: none;
 }
 
 /* *********************************************************
