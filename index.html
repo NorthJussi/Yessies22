@@ -3,7 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>The7 Free HTML5 Responsive Template | Template Stock</title>
+        <!-- sivuston nimi ja pikku logo -->
+        <link rel="shortcut icon" type="image/x-icon" href="Favicon.ico" />
+        <title>Yessies.fi</title>
         
         <!-- CSS -->
         <link rel="stylesheet" href="css/reset.css">
@@ -14,6 +16,14 @@
         <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
         <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
+        
+
+        <!-- Scriptit-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
 
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
@@ -65,12 +75,32 @@
                 </div>
             </div>
             <!-- Esittelyn loppu -->
-
-            <!-- Painikkeet-->
+            
             <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
             </svg>
-
+            <!-- Kuvakarusellin alku -->
+            <div class="slider">
+                <img src="images/slideshow/DSC_0182.jpg" alt="">
+                <img src="images/slideshow/DSC00074.jpg" alt="">
+                <img src="images/slideshow/DSC_0256.jpg" alt="">
+                <img src="images/slideshow/DSC00224.jpg" alt="">
+                <img src="images/slideshow/DSC_0179.jpg" alt="">
+            </div>
+            <!-- kuvakarusellin JS -->
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script type="text/javascript">
+              $(document).ready(function(){
+                 $('.slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    dots: true,
+                    slidesToShow: 1
+                 });
+                });
+            </script>
+            <!-- Kuvakarusellin loppu -->
+            <!-- Painikkeet-->
             <!-- Services Section -->
             <div class="wrap services-wrap" id="services">
                 <section class="grid grid-pad services">
@@ -120,13 +150,14 @@
                         </div>
                     </div>
                 </section>
+                <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+                </svg>
             </div>
             <!-- End Services Section -->
             
             <!-- CurveDown -->
-            <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
-            </svg>
+
 
             <!-- Work Section -->
             <div class="wrap grey recent-wrap" id="work">
@@ -426,5 +457,18 @@
                 <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
                 <script src="js/jquery.counterup.min.js"></script>
                 <script src="js/lightcase.min.js"></script>
+                <!-- kuvakarusellin JS -->
+                <script type="text/javascript" src="slick/slick.min.js"></script>
+                <script type="text/javascript">
+                  $(document).ready(function(){
+                     $('.slider').slick({
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        dots: true,
+                        slidesToShow: 1
+                     });
+                    });
+                </script>
+
             </body>
         </html>
