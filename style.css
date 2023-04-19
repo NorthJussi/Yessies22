@@ -323,7 +323,7 @@ blockquote p {
   position: fixed;
   z-index: 1000;
   width: 100%;
-  padding: 23px 0;
+  padding: 10px 0;
 /*transition*/
   -webkit-transition: all .15s linear;
      -moz-transition: all .15s linear;
@@ -338,11 +338,11 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 134px;
+  height: 56px;
   text-indent: -9999px;
-  background: url(images/logo.svg) no-repeat;
-  background-size: 104px 46px;
+  background: url(images/Yessies_logo_2023.svg) no-repeat;
+  background-size: 134px 56px;
 }
 
 .logo:hover, .logo:focus {
@@ -353,11 +353,11 @@ blockquote p {
 }
 
 .header-default {
-  background: #2C2D31;
+  background: rgb(175, 174, 174);
 }
 
 .header-home {
-  background: transparent;
+  background: rgb(175, 174, 174);
 /*box-shadow*/
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
