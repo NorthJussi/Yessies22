@@ -518,133 +518,72 @@ blockquote p {
 }
 
 /* *********************************************************
-  Parallax 
+  Kuva Slideri
 ********************************************************* */
 
-.parallax-section {
-  z-index: -1;
-  clear: both;
-  background-image: url('images/big3.jpg');
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-position: center center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.parallax2 {
-  background-image: url('images/parallax2.jpg');
-}
-
-.parallax-section .content, .top-slider .content-header, .home-slider {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.parallax-section .content-header, .home-slider .content-header {
-  padding: 145px 0 250px;
-}
-
-.parallax2 .content {
-  padding: 100px 0;
-}
-
-.top-slider .content-header {
-  padding: 130px 0;
-}
-
-.parallax-section .content h2,
-.content-header h2,
-.parallax-section .content h3,
-.content-header h3 {
-  color: #fff;
-}
-
-.parallax-section h2 > span,
-.parallax-section h3 > span,
-.content-header h2 > span,
-.content-header h3 > span {
-  background: #fff;
-}
-
-.parallax-section .content h2, .content-header h2 {
-  font-size: 2.5em;
-}
-
-.parallax-section .content p, .top-slider .content-header p, .home-slider .content p {
-  width: 70%;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-
-/* *********************************************************
-  Kuvakaruselli
-********************************************************* */
-.slider-section {
-background: #858585;
-height: 100%;
-padding-top: 0px;
-padding-bottom: 0px;
-position: relative;
-}
-/* Hide all but the first image */
-.slick-slide:not(:first-child) {
-  display: none;
-}
-
-/* Style the slider container */
-.slider {
-  width: 100%;
-  height: 250%;
-  margin: 0 auto;
-  margin-top: 50px;
+.box {
+  display: flex;
+  align-items: flex-start;
+  background: #0a0a0a;
+  height: 75vh;
+  overflow: hidden;
   position: relative;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 8px solid #474747;
-  -webkit-box-shadow: 0px 0px 14px 7px #12b1c1;
-  -moz-box-shadow: 0px 0px 14px 7px #515353;
-  box-shadow: 0px 0px 14px 7px #12b1c1;
 }
 
-/* Set the border radius and border for the slider images */
-.slick-slide img {
-  border-radius: 90px 29px 143px 14px !important;
-  -moz-border-radius: 90px 29px 143px 14px !important;
-  -webkit-border-radius: 90px 29px 143px 14px !important;
-  border: 8px solid #000000 !important;
-  }
-
-/* Style the navigation dots */
-.slick-dots {
+.box .single-box img {
   position: absolute;
-  bottom: 10px;
   width: 100%;
-  list-style: none;
-  text-align: center;
+  height: 100%;
+  object-fit: cover;
+  background: #000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: 0;
+  transform: scale(1.5) rotate(15deg);
+  -webkit-animation: animate 90s infinite;
+  animation: animate 90s infinite;
 }
-
-.slick-dots li {
-  display: inline-block;
-  margin: 0 5px;
+.box .single-box:nth-child(6) img {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
 }
-
-.slick-dots li button {
-  font-size: 0;
-  line-height: 0;
-  display: block;
-  width: 25px;
-  height: 25px;
-  padding: 5px;
-  border: none;
-  border-radius: 50%;
-  background-color: #949292;
-  color: transparent;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.box .single-box:nth-child(5) img {
+  -webkit-animation-delay: 16s;
+  animation-delay: 16s;
 }
-
-.slick-dots li.slick-active button {
-  background-color: none;
+.box .single-box:nth-child(4) img {
+  -webkit-animation-delay: 24s;
+  animation-delay: 24s;
+}
+.box .single-box:nth-child(4) img {
+  -webkit-animation-delay: 32s;
+  animation-delay: 32s;
+}
+.box .single-box:nth-child(3) img {
+  -webkit-animation-delay: 40s;
+  animation-delay: 40s;
+}
+.box .single-box:nth-child(2) img {
+  -webkit-animation-delay: 48s;
+  animation-delay: 48s;
+}
+.box .single-box:nth-child(1) img {
+  -webkit-animation-delay: 56s;
+  animation-delay: 56s;
+}
+@keyframes animate {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
 }
 
 /* *********************************************************
