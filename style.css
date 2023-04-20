@@ -341,7 +341,7 @@ blockquote p {
   width: 134px;
   height: 56px;
   text-indent: -9999px;
-  background: url(images/Yessies_logo_2023.svg) no-repeat;
+  background: url(images/Yessies_logo_2023.png) no-repeat;
   background-size: 134px 56px;
 }
 
@@ -353,11 +353,11 @@ blockquote p {
 }
 
 .header-default {
-  background: rgb(175, 174, 174);
+  background: transparent;
 }
 
 .header-home {
-  background: rgb(175, 174, 174);
+  background: transparent;
 /*box-shadow*/
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -526,6 +526,7 @@ blockquote p {
   margin: 0;
   box-sizing: border-box;
 }
+/* Sliderin kontti */
 .box {
   display: flex;
   align-items: flex-start;
@@ -535,6 +536,7 @@ blockquote p {
   position: relative;
 }
 
+/* Slider kuvien animointi */
 .box .single-box img {
   position: absolute;
   width: 100%;
