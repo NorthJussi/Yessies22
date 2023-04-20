@@ -191,7 +191,7 @@ blockquote p {
 
 .btn:hover, .btn:focus, .btn-current {
   color: #fff;
-  background: #12B1C1;
+  background: #82c6cc;
 }
 
 .btn:hover, .social-set a:hover, .team-social a i:hover, .header-carousel .owl-buttons .owl-prev:hover, .header-carousel .owl-buttons .owl-next:hover {
@@ -341,7 +341,7 @@ blockquote p {
   width: 134px;
   height: 56px;
   text-indent: -9999px;
-  background: url(images/Yessies_logo_2023.svg) no-repeat;
+  background: url(images/Yessies_logo_2023.png) no-repeat;
   background-size: 134px 56px;
 }
 
@@ -353,11 +353,11 @@ blockquote p {
 }
 
 .header-default {
-  background: rgb(175, 174, 174);
+  background: transparent;
 }
 
 .header-home {
-  background: rgb(175, 174, 174);
+  background: transparent;
 /*box-shadow*/
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
@@ -365,7 +365,7 @@ blockquote p {
 }
 
 .header-home .navigation a {
-  color: #fff;
+  color: #85f7f7;
 }
 
 .top-slider {
@@ -438,7 +438,7 @@ blockquote p {
   display: block;
   margin-left: 20px;
   padding-bottom: 3px;
-  color: #fff;
+  color: #4dd8e2;
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
@@ -460,7 +460,7 @@ blockquote p {
           transition: all .1s linear;
   opacity: 0;
   border-top: 1px solid#12B1C1;
-  background: #fff;
+  background:   color: #4dd8e2;
 /*box-shadow*/
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -483,7 +483,7 @@ blockquote p {
 }
 
 .sub-menu li a:hover {
-  background: #f9f9f9;
+  background:   color: #4dd8e2;
 }
 
 .navigation li:hover > ul {
@@ -526,6 +526,7 @@ blockquote p {
   margin: 0;
   box-sizing: border-box;
 }
+/* Sliderin kontti */
 .box {
   display: flex;
   align-items: flex-start;
@@ -535,6 +536,7 @@ blockquote p {
   position: relative;
 }
 
+/* Slider kuvien animointi */
 .box .single-box img {
   position: absolute;
   width: 100%;
