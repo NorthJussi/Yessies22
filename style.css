@@ -442,18 +442,26 @@ blockquote p {
   float: left;
 }
 
+
 .navigation a {
-  font-size: .8em;
-  display: block;
+  display: inline-block;
   margin-left: 20px;
-  padding-bottom: 3px;
+  padding: 0.5em 1.65em;
+  font-size: .8em;
+  list-style: none;
+  cursor: pointer;
   color: #4dd8e2;
+  border: 2px solid transparent;
+/*border-radius*/
+  -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+          border-radius: 30px;
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
-  color:#12B1C1;
+  border: 2px solid #12B1C1;
+  color: #12B1C1;
 }
-
 .navigation .sub-menu {
   position: absolute;
   z-index: 9999;
