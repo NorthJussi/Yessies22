@@ -468,7 +468,7 @@ blockquote p {
           transition: all .1s linear;
   opacity: 0;
   border-top: 1px solid#12B1C1;
-  background:   color: #4dd8e2;
+  background:   color: #4dd8e2; /*korjaa kun jaksat */
 /*box-shadow*/
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -1448,10 +1448,11 @@ footer p, footer a {
 }
 
 .social-set {
-  width: 100%;
-  margin: 0 0 .5em;
-  padding: 0 0 1em 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 .social-set a {
@@ -1460,6 +1461,24 @@ footer p, footer a {
   padding: 1em;
 }
 
+.icon_facebook:hover, .icon_facebook:focus {
+  -webkit-animation: rubberBand 0.5s 1;
+  -moz-animation: rubberBand 0.5s 1;
+    -o-animation: rubberBand 0.5s 1;
+       animation: rubberBand 0.5s 1;
+}
+.icon_linkedin:hover, .icon_linkedin:focus {
+  -webkit-animation: rubberBand 0.5s 1;
+  -moz-animation: rubberBand 0.5s 1;
+    -o-animation: rubberBand 0.5s 1;
+       animation: rubberBand 0.5s 1;
+}
+.icon_instagram:hover, .icon_instagram:focus {
+  -webkit-animation: rubberBand 0.5s 1;
+  -moz-animation: rubberBand 0.5s 1;
+    -o-animation: rubberBand 0.5s 1;
+       animation: rubberBand 0.5s 1;
+}
 .copyright {
   text-align: center;
 }
