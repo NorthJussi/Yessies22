@@ -34,8 +34,8 @@ background-image: #fff;
   padding: 3.5em 0;
 }
 
-.grey {S
-  background: #ECF0F1;
+.grey {
+  background: #a2cdd4;
   padding: 100px 0 150px;
 }
 
@@ -334,11 +334,11 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 159px;
+  height: 78px;
   text-indent: -9999px;
-  background: url(images/Yessies_logo_2023.png) no-repeat;
-  background-size: 104px 46px;
+  background: url(images/Yessies_logo_2021.png) no-repeat;
+  background-size: 159px 78px;
 }
 
 .logo:hover, .logo:focus {
@@ -1209,6 +1209,24 @@ footer p, footer a {
      -moz-border-radius: 5px;
           border-radius: 5px;
 }
+.QR_koodi {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  height: 250px;
+  width: 550px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  overflow: hidden;
+  position: relative;
+}
+.koodi_QR {
+  position: relative;
+  line-height: 1.8em;
+  width: 20%;
+  margin: 10px auto;
+}
+
 /* Partner logo slider */
 .container {
   display: flex;
