@@ -38,10 +38,15 @@ Grey #ECF0F1
   box-sizing: border-box;
 }
 .contact {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   padding: 3.5em 0;
   background-image: url(images/taustakoi.png);
-  background-position: -450px -200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
 }
 
 .wrap {
@@ -49,10 +54,6 @@ Grey #ECF0F1
   padding: 3.5em 0;
 }
 
-.grey {
-  background: #ECF0F1;
-  padding: 100px 0 150px;
-}
 
 a {
   color:#12B1C1;
@@ -144,8 +145,8 @@ blockquote p {
 }
 
 .curveUpColor2, .curveDownColor2 {
-  fill: #858585;
-  stroke: #858585;
+  fill: #2C2B31;
+  stroke: #2C2B31;
   position: absolute;
   left: 0;
   z-index: 1;
