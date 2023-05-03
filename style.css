@@ -22,11 +22,15 @@
   box-sizing: border-box;
 }
 .contact {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   padding: 3.5em 0;
-background-image: #fff;
-  background-position: 5px -200px;
-
+  background-image: url(images/taustakoi5.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 1.0;
 }
 
 .wrap {
@@ -35,7 +39,7 @@ background-image: #fff;
 }
 
 .grey {
-  background: #a2cdd4;
+  background: #f1ecec;
   padding: 100px 0 150px;
 }
 
@@ -58,7 +62,7 @@ a, img, .overlay, input, textarea, .plan-wrap p, .filters .filter {
 body {
   font-size: 1em;
   line-height: 1.7em;
-  color: #777777;
+  color: #112d2e;
   font-weight: normal;
 }
 
@@ -129,8 +133,8 @@ blockquote p {
 }
 
 .curveUpColor2, .curveDownColor2 {
-  fill: transparent;
-  stroke: transparent;
+  fill: #0a5b63;
+  stroke: #0a5b63;
   position: absolute;
   left: 0;
   z-index: 1;
