@@ -28,6 +28,7 @@
   width: 100%;
   padding: 3.5em 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: url(images/taustakoi.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -38,6 +39,12 @@
   background-repeat: no-repeat;
   opacity: 1.0;
 >>>>>>> cb833d74e76616ca6f18be2a7f7e68fe8b8f67ae
+=======
+  background-image: url(images/taustakoi5.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 1.0;
+>>>>>>> 0f17c9dcfc44da555940343432f13a4802c1391a
 }
 
 .wrap {
@@ -46,12 +53,18 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0f17c9dcfc44da555940343432f13a4802c1391a
 .grey {
   background: #f1ecec;
   padding: 100px 0 150px;
 }
+<<<<<<< HEAD
 >>>>>>> cb833d74e76616ca6f18be2a7f7e68fe8b8f67ae
+=======
+>>>>>>> 0f17c9dcfc44da555940343432f13a4802c1391a
 
 a {
   color:#12B1C1;
@@ -144,12 +157,17 @@ blockquote p {
 
 .curveUpColor2, .curveDownColor2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   fill: #2C2B31;
   stroke: #2C2B31;
 =======
   fill: #0a5b63;
   stroke: #0a5b63;
 >>>>>>> cb833d74e76616ca6f18be2a7f7e68fe8b8f67ae
+=======
+  fill: #0a5b63;
+  stroke: #0a5b63;
+>>>>>>> 0f17c9dcfc44da555940343432f13a4802c1391a
   position: absolute;
   left: 0;
   z-index: 1;
@@ -1091,7 +1109,7 @@ address i {
   border-right: 2px solid #000000;
   float: left;
   font-size: 1.4em;
-  height: 45px;
+  height: 115px;
   line-height: 40px;
   margin: 0 20px 0 0;
   width: 40px;
