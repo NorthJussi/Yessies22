@@ -582,15 +582,19 @@ blockquote p {
 
 .services, .service-box {
   text-align: center;
-  display: center;
 }
 
+.content-ser{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-right: 250px;
+}
 .service-icon {
-  margin-top: 100px;
-  padding-top: 3em;
-  margin: ;
-  display: center;
-  ;
+  margin-top: 20px;
+  padding-top: 1em;
 }
 
 .circle-icon {
@@ -598,18 +602,16 @@ blockquote p {
   font-size: 2em;
   padding: 1.1em 1.15em;
   color: #12B1C1;
-  margin: 0 auto;
-  display: center;
-/*border-radius*/
+/border-radius/
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
           border-radius: 50%;
   background: transparent;
-/*box-shadow*/
+/box-shadow/
   -webkit-box-shadow: 0 0 0 2px #484f58;
      -moz-box-shadow: 0 0 0 2px #484f58;
           box-shadow: 0 0 0 2px #484f58;
-/*transition*/
+/transition/
   -webkit-transition: all .15s linear;
      -moz-transition: all .15s linear;
        -o-transition: all .15s linear;
@@ -617,7 +619,7 @@ blockquote p {
 }
 
 .service-box:hover .circle-icon {
-    /*box-shadow*/
+    /box-shadow/
   -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
       -ms-transform: scale(1.1);
