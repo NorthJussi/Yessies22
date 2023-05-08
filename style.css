@@ -1236,7 +1236,8 @@ footer p, footer a {
   position: relative;
   line-height: 1.8em;
   width: 20%;
-  margin: 10px auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Partner logo slider */
