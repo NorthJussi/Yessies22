@@ -1272,6 +1272,7 @@ footer p, footer a {
 
 .sertificate{
   display: flex;
+  position: relative;
   justify-content: flex-end;
   flex-direction: row;
   overflow: hidden;
